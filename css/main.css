@@ -14,35 +14,38 @@ p {
     color: #333;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
+.topnav ul {
+  list-style-type: none;
+  text-align: center;
+  table-layout: fixed;
+  display: table;
+  padding: 0;
   width: 100%;
   margin: 0;
-  padding: 0;
-
-
 }
-
+.topnav ul li {
+  vertical-align: middle;
+  display: table-cell;
+}
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 35px;
   text-decoration: none;
-  font-size: 20px;
-  transition-duration: 1s;
+  color: white;
+  padding: 15px 10px;
+  background-color: #033;
+  font-size: 25px;
 }
-
-.topnav a:hover {
-  background-color: #ddd;
-  padding: 15px 35px;
-  color: black;
+.topnav ul li a:hover {
+  color: white;
+  background-color: #111;
 }
 
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.topnav #currentpage a {
+  color: black;
+  text-decoration: line-through;
+  background-color: #c2d6d6;
 }
