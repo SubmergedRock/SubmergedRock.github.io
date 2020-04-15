@@ -14,8 +14,14 @@ p {
     color: #333;
 }
 
-.navbar {
-  background-color: #003333;
+a {
+  display: block;
+  background-color: #333;
+  transition-duration: 1s;
+}
+
+.topnav {
+  background-color: #333;
   border-radius: 15px;
   overflow: hidden;
 }
