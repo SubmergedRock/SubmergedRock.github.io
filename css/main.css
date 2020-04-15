@@ -23,6 +23,7 @@ p {
   margin: 0;
   padding: 0;
 
+
 }
 
 .topnav a {
@@ -32,6 +33,7 @@ p {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition-duration: 1s;
 }
 
 .topnav a:hover {
