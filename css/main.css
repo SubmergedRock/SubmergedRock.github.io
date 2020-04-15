@@ -34,6 +34,7 @@ p {
 
 .topnav a:hover {
   background-color: #ddd;
+  padding: 20px 16px;
   color: black;
 }
 
