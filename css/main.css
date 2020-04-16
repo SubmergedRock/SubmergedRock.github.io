@@ -18,6 +18,9 @@ body{
 
 
 /*NAVAGATION BAR STUFF*/
+.navbar #active:not(:hover){
+    color: skyblue;
+}
 .side-nav-icon div{
     height: 5px;
     background: white;
@@ -78,11 +81,21 @@ body{
 .side-menu a{
     list-style: none;
     text-decoration: none;
-    color: turquoise;
     margin: 10px 10px;
     float: left;
     font-size: 17px;
+    color: lightcyan;
 }
+
+.side-menu a:hover{
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 10px;
+    float: left;
+    font-size: 17px;
+    color: #55fbaa;
+}
+
 
 
 
