@@ -6,13 +6,13 @@ function Toggleside() {
       menu.style.width = "40px"
       menu.style.height = "170px"
       for (var g = 0; g < links.length; g++){
-          links[g].style.opacity = "1"
+          links[g].style.display = "block"
       }
   } else {
-     menu.style.width = "0vw"
-      menu.style.height = "0vh"
+     menu.style.width = "0px"
+      menu.style.height = "0px"
       for (g = 0; g < links.length; g++){
-          links[g].style.opacity = "0"
+          links[g].style.display = "none"
       }
       
   }
