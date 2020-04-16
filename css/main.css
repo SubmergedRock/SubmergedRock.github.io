@@ -61,12 +61,13 @@ body{
 .side-menu {
     float: left;
     background-color: grey;
-    height: 25vh;
-    width: 10vw;
+    height: 0vh;/*changes to 25vh when clicked*/
+    width: 0vw;/*changes to 10vw when clicked*/
     margin: 0 0 0 0;
     border-radius: 35px;
     border-top-left-radius: 0px;
     transition: .2s;
+    
     
     
 }
@@ -92,7 +93,7 @@ body{
     text-decoration: none;
     margin: 10px 10px;
     float: left;
-    font-size: 17px;
+    font-size: 0;/*changes to 17px when clicked*/
     color: #55fbaa;
 }
 
