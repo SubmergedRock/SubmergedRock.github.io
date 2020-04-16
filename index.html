@@ -1,96 +1,31 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>Evan Bell</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel='shortcut icon' type='image/png' href='_img/favicon-32x32.png'>
-			<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-			<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,600'>
-
-			<style>
-
-                body{
-                    margin: 0;
-                    padding: 0;
-                    background: #232323;
-                    color: #cdcdcd;
-                    font-family: "Avenir Next", "Avenir", sans-serif;
-                }
-
-                .nav-icon div{
-                    height: 5px;
-                    background: white;
-                    margin: 5px 0;
-                    border-radius: 25px;
-                    transition: 0.4s;
-                }
-
-                .nav-icon input{
-
-                }
-                
-                .nav-icon input:checked{
-                    .nav-icon {
-                        background: #333;
-                    }
-                }
-
-                .nav-icon{
-                    width: 30px;
-                    display: block;
-                    margin: 0.5em 0 0 0.5em;
-                }
-
-                .nav-icon .one{
-                    width: 30px;
-                }
-
-                .nav-icon .two{
-                    width: 17px;
-                }
-
-                .nav-icon .three{
-                    width: 24px;
-                }
-
-                .nav-icon:hover div{
-                    width: 30px;
-                    background: #55fbaa;
-                }
-
-            
+<html>
+    <head>
+        <title>Evan Bell</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,600'>
+        <link name='viewport' content='width=device-width, initial-scale=1.0'>
+    </head>
+    <body class='bi'>
+        <script type = "text/javascript" src="/css/myscripts.js"></script>
+        
+        <div class='navbar'>
+            <div class='side-nav-icon'>
+                <label for='side-toggle'>
+                    <div class='one'></div>
+                    <div class='two'></div>
+                    <div class='three'></div>
+                </label>
+            </div>
+            <input id='side-toggle' type='checkbox' onclick='Toggleside()'> 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			</style>
-
-
-		</head>
-		<body>
-
-
-			<a href='#' class='nav-icon'>
-                <input type='checkbox'/>
-				<div class='one'></div>
-				<div class='two'></div>
-				<div class='three'></div>
-			</a>
-
-
-		</body>
-	</html>
+            <ul class='side-menu' id='side-menu'>
+                <li><a href='#'>Projects</a></li>
+                <li><a href='#'>About me</a></li>
+                <li><a href='#'>Contact</a></li>
+            </ul> 
+        </div>
+    </body>
+</html>
