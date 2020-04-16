@@ -22,10 +22,10 @@ body{
     color: skyblue;
 }
 .side-nav-icon div{
-    height: 5px;
+    height: 0.5vh;
     background: white;
-    margin: 5px 0;
-    border-radius: 25px;
+    margin: 0.5vh 0;
+    border-radius: 100px;
     transition: 0.4s;
 }
 
@@ -45,11 +45,11 @@ body{
 }
 
 .side-nav-icon .two{
-    width: 17px;
+    width: 20px;
 }
 
 .side-nav-icon .three{
-    width: 24px;
+    width: 25px;
 }
 
 .side-nav-icon:hover div{
@@ -60,10 +60,10 @@ body{
 .side-menu {
     float: left;
     background-color: grey;
-    height: 0vh;/*changes to 25vh when clicked*/
-    width: 0vw;/*changes to 10vw when clicked*/
+    height: 0;/*changes to 170px when clicked*/
+    width: 0;/*changes to 40px when clicked*/
     margin: 0 0 0 0;
-    border-radius: 35px;
+    border-radius: 25px;
     border-top-left-radius: 0px;
     transition: .2s;
     
@@ -72,7 +72,7 @@ body{
 }
 
 .side-menu li{
-    margin: 50px 0 0 -30px;
+    margin: 40px 0 0 -50px;
     list-style: none;
     text-decoration: none;
     font: "Works Sans", sans-serif;
@@ -82,18 +82,13 @@ body{
 .side-menu a{
     list-style: none;
     text-decoration: none;
-    margin: 10px 10px;
+    margin: 8px 15px;
     float: left;
     font-size: 17px;
     color: lightcyan;
 }
 
 .side-menu a:hover{
-    list-style: none;
-    text-decoration: none;
-    margin: 10px 10px;
-    float: left;
-    font-size: 17px;
     color: #55fbaa;
 }
 
