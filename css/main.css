@@ -30,8 +30,7 @@ body{
 }
 
 .navbar input{
-    display: none;
-    
+    display: none; 
 }
 
 .side-nav-icon{
@@ -77,6 +76,7 @@ body{
     list-style: none;
     text-decoration: none;
     font: "Works Sans", sans-serif;
+    opacity: 0;/*changes to 100 when clicked*/
 }
 
 .side-menu a{
@@ -93,7 +93,7 @@ body{
     text-decoration: none;
     margin: 10px 10px;
     float: left;
-    font-size: 0;/*changes to 17px when clicked*/
+    font-size: 17px;
     color: #55fbaa;
 }
 
