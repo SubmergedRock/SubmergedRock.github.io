@@ -57,13 +57,13 @@ body{
 
 .side-menu {
     float: left;
-    display: none;
     background-color: grey;
     height: 25vh;
     width: 10vw;
     margin: 0 0 0 0;
     border-radius: 35px;
     border-top-left-radius: 0px;
+    transition: .2s;
     
     
 }
