@@ -78,7 +78,7 @@ body{
     list-style: none;
     text-decoration: none;
     font: "Works Sans", sans-serif;
-    opacity: 0;/*changes to 1 when clicked*/
+    display: block;/*changes to block when clicked*/
 }
 
 .side-menu a{
