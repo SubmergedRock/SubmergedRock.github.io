@@ -40,6 +40,7 @@ body{
     margin: 0.5em 0 0 0.5em;
 }
 
+
 .side-nav-icon .one{
     width: 30px;
 }
@@ -49,8 +50,9 @@ body{
 }
 
 .side-nav-icon .three{
-    width: 25px;
+    width: 25px
 }
+
 
 .side-nav-icon:hover div{
     width: 30px;
@@ -65,7 +67,7 @@ body{
     margin: 0 0 0 0;
     border-radius: 25px;
     border-top-left-radius: 0px;
-    transition: .2s;
+    transition: .s;
     
     
     
@@ -76,7 +78,7 @@ body{
     list-style: none;
     text-decoration: none;
     font: "Works Sans", sans-serif;
-    opacity: 0;/*changes to 100 when clicked*/
+    opacity: 0;/*changes to 1 when clicked*/
 }
 
 .side-menu a{
