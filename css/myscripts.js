@@ -5,13 +5,13 @@ function Toggleside() {
   if (checkbox.checked == true){
       menu.style.width = "40px"
       menu.style.height = "170px"
-      for (var g = 0; g<links.length; g++){
-          links[g].style.opacity = "100"
+      for (var g = 0; g < links.length; g++){
+          links[g].style.opacity = "1"
       }
   } else {
      menu.style.width = "0vw"
       menu.style.height = "0vh"
-      for (var g = 0; g<links.length; g++){
+      for (g = 0; g < links.length; g++){
           links[g].style.opacity = "0"
       }
       
