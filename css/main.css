@@ -1,63 +1,70 @@
-body {
+body{
     margin: 0;
-    width: 70%;
+    padding: 0;
+    background: #232323;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
-h1 {
-    font-size: 3em;
-    border-top: 3px solid #d5d5d5;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+.side-nav-icon div{
+    height: 5px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.4s;
 }
 
-a {
-  display: block;
-  background-color: #333;
-  transition-duration: 1s;
+.side-nav-icon input{
+    display:none;
 }
 
-.topnav {
-  background-color: #333;
-  border-radius: 15px;
-  overflow: hidden;
+.side-nav-icon input:checked{
+    
 }
 
-.topnav ul {
-  list-style-type: none;
-  text-align: center;
-  table-layout: fixed;
-  display: table;
-  padding: 0;
-  width: 100%;
-  margin: 0;
-}
-.topnav ul li {
-  vertical-align: middle;
-  display: table-cell;
-}
-.topnav a {
-  text-decoration: none;
-  color: white;
-  padding: 15px 10px;
-  background-color: #033;
-  font-size: 25px;
-}
-.topnav ul li a:hover {
-  color: white;
-  background-color: #111;
+.side-nav-icon{
+    width: 30px;
+    display: block;
+    margin: 0.5em 0 0 0.5em;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+.side-nav-icon .one{
+    width: 30px;
 }
 
-.topnav #currentpage a {
-  color: black;
-  text-decoration: line-through;
-  background-color: #c2d6d6;
+.side-nav-icon .two{
+    width: 17px;
 }
+
+.side-nav-icon .three{
+    width: 24px;
+}
+
+.side-nav-icon:hover div{
+    width: 30px;
+    background: #55fbaa;
+}
+
+
+.side-nav{
+    display:block;
+    height:30vh;
+    width: 20vw;
+    background: #444;
+    border-radius: 35px;
+}
+.side-menu {
+    margin: 50px 6px;
+}
+
+.side-menu li{
+    margin: 30px 6px;
+    
+}
+.side-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font: 'Work Sans', sans-serif;
+}
+
