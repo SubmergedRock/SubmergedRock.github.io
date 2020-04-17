@@ -36,8 +36,8 @@ body{
 .side-nav-icon{
     width: 30px;
     display: block;
-    position: fixed;
-    margin: 0.5em 0 0 0.5em;
+    position: ;
+    margin: 0.5em 0 0 -2em;
 }
 
 
@@ -67,14 +67,12 @@ body{
     margin: 0 0 0 0;
     border-radius: 25px;
     border-top-left-radius: 0px;
-    transition: .2s;
-    
-    
-    
+    transition: .2s; 
 }
 
 .side-menu li{
-    margin: 40px 0 0 -50px;
+    margin: 0px 0 0 -50px;
+    position: relative;
     list-style: none;
     text-decoration: none;
     font: "Works Sans", sans-serif;
