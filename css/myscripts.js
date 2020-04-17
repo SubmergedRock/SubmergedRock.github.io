@@ -1,7 +1,7 @@
 function Toggleside() {
     var checkbox = document.getElementById("side-toggle")
   var menu = document.getElementById("side-menu")
-  var links = document.getElementsByTagName("li")
+  var links = menu.getElementsByTagName("li")
   if (checkbox.checked == true){
       menu.style.width = "40px"
       menu.style.height = "170px"
